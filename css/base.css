@@ -1,0 +1,83 @@
+.container {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Navbar style*/
+.customisation {
+	background-color: #24252A;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 1%;
+}
+
+.customisation li, a, button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+.logo {
+	cursor: pointer;
+	max-width: 220px;
+	order: 3;
+	margin-left:auto;
+}
+
+nav {
+	order: 1;
+}
+
+.nav-links {
+	list-style: none;
+}
+
+.nav-links li {
+	display: inline-block; /*unul dupa altul*/
+	padding: 0px 5px;
+}
+
+.nav-links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:nth-child(1) {
+	transition: all 0.3s ease 0s;
+	padding: 0 20px 0 0;
+}
+
+.nav-links li a:hover {
+	color : #0088a9;
+}
+
+.cta {
+	order: 2;
+}
+
+button {
+	margin-left: 20px;
+	padding: 4px 25px;
+	background-color: rgba(0,136,168,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s
+}
+
+button:hover {
+	background-color: rgba(0,136,169,0.8);
+}
+
+
+/*Documentation*/
+/*flex - https://developer.mozilla.org/en-US/docs/Web/CSS/flex*/
+/*cursor - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor*/
+/*list-style - https://developer.mozilla.org/en-US/docs/Web/CSS/list-style*/
+
+
+/*Items used*/
+/*logo - https://logomakr.com/*/
