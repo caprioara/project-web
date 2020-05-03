@@ -72,6 +72,19 @@ button:hover {
 	background-color: rgba(0,136,169,0.8);
 }
 
+footer div{
+	margin: 0 5%;
+}
+
+.design-discord a {
+	font-weight: 900;
+	font-size: 17px;
+	transition: all 0.3s ease 0s;
+}
+
+.design-discord a:hover {
+	color: #7289da;
+}
 
 /*Documentation*/
 /*flex - https://developer.mozilla.org/en-US/docs/Web/CSS/flex*/
