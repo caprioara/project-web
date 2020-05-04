@@ -1,0 +1,15 @@
+.type4-box {
+	margin: 20px 4% 0 4%;
+}
+
+.type4-box-images {
+	margin: 20px 9% 0 9%;
+} 
+
+.type4-box-images img {
+	margin: auto;
+	max-height: 100%;
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+}

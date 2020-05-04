@@ -8,7 +8,7 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/base.css">
-	<link rel="stylesheet" type="text/css" href="css/recommendation.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	<!-- JavaScript -->
 	<script type="text/javascript" src="javascript/slider.js"></script>
 
@@ -31,8 +31,8 @@
 
 			<ul class = "nav-links">
 
-				<li><a href="home.html">Home</a></li>
-				<li><a href="recommendation.html">Recommend</a></li>
+				<li><a href="home.html">Acasa</a></li>
+				<li><a href="recommendation.html">Recomandari</a></li>
 				<li><a href="vitamine.html">Vitamine</a></li>
 				<li><a href="bodybuilding.html">Body Building 4</a></li>
 				
@@ -44,7 +44,33 @@
 	</header>
 
 
+	<!-- contact form -->
+	<div class="container-c">
+		<form action="/action_page.php">
+			<label for="fname">Nume</label>
+			<input type="text" id="fname" name="firstname" placeholder="Numele tau..">
 
+			<label for="lname">Prenume</label>
+			<input type="text" id="lname" name="lastname" placeholder="Prenumele tau..">
+
+			<label for="lemail">E-mail</label>
+			<input type="text" id="lemail" name="email" placeholder="E-mailul tau..">
+
+			<label for="country">Country</label>
+			<select id="country" name="country">
+				<option value="romania">Romania</option>
+				<option value="bulgaria">Bulgaria</option>
+				<option value="moldova">Moldova</option>
+				<option value="ungaria">Ungaria</option>
+				<option value="ucraina">Ucraina</option>
+			</select>
+
+			<label for="subject">Subiect</label>
+			<textarea id="subject" name="subject" placeholder="Scrie aici mesajul pe care il ai pentru noi.." style="height:200px"></textarea>
+
+			<input type="submit" value="Submit">
+		</form>
+	</div>
 
 
 
